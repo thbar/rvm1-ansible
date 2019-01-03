@@ -51,3 +51,5 @@ root_user: 'root'
 
 # Name of GID 0 group -- BSD systems typically use wheel instead of root
 root_group: '{{ root_user }}'
+
+rvm1_gem_install_bundler_extra_args:
