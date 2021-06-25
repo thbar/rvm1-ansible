@@ -58,3 +58,6 @@ root_user: 'root'
 
 # Name of GID 0 group -- BSD systems typically use wheel instead of root
 root_group: '{{ root_user }}'
+
+# Name of temporary folder for RVM1 installation
+rvm1_temp_download_path: '/tmp'
